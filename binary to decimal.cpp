@@ -10,9 +10,9 @@ int main()
 	      for ( i = 0;i < count;i++) {
 	      	   sum = sum * 2;
 	      }
-		  sum = r * sum;
-		  count = count + 1;
-		  sum1 =  sum1 + sum;
+	      sum = r * sum;
+              count = count + 1;
+	      sum1 =  sum1 + sum;
 	      n = n / 10;
 	}
 	printf("\n%d",sum1);
